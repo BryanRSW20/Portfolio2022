@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+h1.title{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-family: 'Barlow', sans-serif;
+}
+h3.title{
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Barlow', sans-serif;
+}
+header{
+    text-align: center;
+    background-color: #334195;
+    height: 240px;
+    border-bottom: 3px solid #45F0DF;
+    box-shadow: 0 0 1em rgb(44 44 44 / 65%)
+}
+nav{
+    margin-top: 16px;
+    width: 320px;
+    height:35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(127, 187, 255);
+    border-top: 4px solid #45F0DF;
+    border-left: 4px solid #45F0DF;
+    border-right: 4px solid #45F0DF;
+    border-radius: 12px;
+    border-bottom: 4px solid #45F0DF;
+}
+nav:hover{
+    margin-top: 16px;
+    width: 320px;
+    height:35px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(127, 187, 255);
+    border-top: 4px solid #45F0DF;
+    border-left: 4px solid #45F0DF;
+    border-right: 4px solid #45F0DF;
+    border-radius: 12px;
+    border-bottom: 4px solid #45F0DF;
+}
+section.section1{
+    border: 3px solid rgb(112, 110, 110);
+    border-radius: 24px;
+    height: 220px;
+    width: 320px;
+    background-image: url(img/humanas.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+section:hover{
+    box-shadow: 0 0 1em rgb(44 44 44 / 65%);
+    transition: .5s;
+}
+h2#titleS{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid rgb(112, 110, 110);
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    font-family: 'Barlow', sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+h2#titleS:visited{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+#img{
+    background-image: url(./img/github.png);
+    background-size: cover;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    margin-top: -38px;
+    width: 120px;
+    height: 120px;
+    border-right: 3px solid #45F0DF;
+}
+#github{
+    text-align: center;
+    margin-top: 36px;
+    color: rgb(0, 0, 0);
+    width:380px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 24px;
+}
+#github:hover{
+    box-shadow: 0 0 1em rgb(112, 110, 110);
+    transition: .7s;
+}
+#active{
+ text-decoration: underline rgb(255, 153, 0);   
+}
+#img1{
+    background-image: url(./img/linkedin.png);
+    background-size: cover;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+    margin-top: -38px;
+    width: 120px;
+    height: 120px;
+    border-right: 3px solid #45F0DF;
+}
+#linkedin{
+    text-align: center;
+    margin-top: 36px;
+    color: rgb(0, 0, 0);
+    width: 380px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(112, 110, 110);
+    border-radius: 24px;
+}
+#linkedin:hover{
+    box-shadow: 0 0 1em rgb(112, 110, 110);
+    transition: .7s;
+}
+.linkcard{
+    color: #334195;
+}
+.linkcard:visited{
+    color: #334195;
+}
+.linkcard:hover{
+    color: rgb(255, 153, 0);
+    transition: .3s;
+}
+#linkedinMtxt{
+    font-weight: 400;
+}
+#a{
+    background-color: rgb(255, 255, 255);
+    height: 6px;
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+a.link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 4px;
+}
+a.link:hover{
+    color:  #334195;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: .5s;
+}
