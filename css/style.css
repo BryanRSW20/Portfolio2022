@@ -17,6 +17,7 @@ h3.title{
 header{
     text-align: center;
     background-color: #334195;
+    width: 100%;
     height: 240px;
     border-bottom: 3px solid #45F0DF;
     box-shadow: 0 0 1em rgb(44 44 44 / 65%)
