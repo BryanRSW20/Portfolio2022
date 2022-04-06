@@ -3,29 +3,16 @@
     padding: 0;
     font-family: 'Barlow', sans-serif;
 }
-@media only screen and (max-width: 600px){
-    div.a{
-        max-width: 180px;
-    }
-}
-@media only screen and (max-width:360px){
-    nav{
-        max-width: 240px;
-    }
-    h1.title{
-        font-size: 48px;
-    }
-}
 div.a{
     background-color: rgb(255, 255, 255);
     height: 6px;
-    width: 360px;
+    width: 180px;
     margin-left: auto;
     margin-right: auto;
 }
 h1.title{
     color: rgb(255, 255, 255);
-    font-size: 64px;
+    font-size: 48px;
     font-family: 'Barlow', sans-serif;
 }
 h3.title{
@@ -67,102 +54,85 @@ nav:hover{
     border-radius: 12px;
     border-bottom: 4px solid #45F0DF;
 }
-.materias{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
 section.section1{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/humanas.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section.section2{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/natureza.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section.section3{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/linguagens.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section.section4{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/matematica.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section.section5{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/modulointegrador.png);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section.section6{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/ativ.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
-}
-.bodyplaceholder{
-    text-align: left;
-    background-image: url(./img/construtor.jpg);
-    background-size: cover;
 }
 section.section7{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
-    height: 220px;
-    width: 320px;
-    background-image: url(img/F.jpg);
+    height: 180px;
+    width: 260px;
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 12px;
+    margin-bottom: 24px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
 section:hover{
-    box-shadow: 6px 6px 24px .5px rgba(0, 255, 0, 0.486);
+    box-shadow: 6px 6px 10px .2em rgba(0, 255, 0, 0.486);
     border: 3px solid rgb(3, 146, 3);
     transition: .5s;
 }
 h2#titleS{
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 100%;
+    width: 260px;
     margin-left: auto;
     margin-right: auto;
     border-top-left-radius: 22px;
@@ -182,19 +152,13 @@ h2#titleS:visited{
     background-size: cover;
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
-    margin-top: -107px;
+    margin-top: -95px;
     width: 120px;
     height: 120px;
     border-right: 3px solid #45F0DF;
 }
 .texto-lateral{
-    color: rgba(112, 110, 110, 0.541);
-    font-weight: 600;
-    font-style: italic;
-    font-size: 10px;
-    margin-left: 200px;
-    
-    width: 100px;
+    display: none;
 }
 #cardIndexTxt{
     font-weight: 700;
@@ -204,7 +168,7 @@ h2#titleS:visited{
     text-align: center;
     margin-top: 36px;
     color: rgb(0, 0, 0);
-    width:320px;
+    width:260px;
     height: 120px;
     margin-left: auto;
     margin-right: auto;
@@ -225,7 +189,7 @@ h2#titleS:visited{
     background-size: cover;
     border-top-left-radius: 22px;
     border-bottom-left-radius: 22px;
-    margin-top: -107px;
+    margin-top: -95px;
     width: 120px;
     height: 120px;
     border-right: 3px solid #45F0DF;
@@ -257,14 +221,4 @@ a.link:hover{
     cursor: pointer;
     text-decoration: underline;
     transition: .5s;
-}
-footer{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 120px;
-    background-color: #334195;
-    border-top: 2px solid #45F0DF ;
 }
