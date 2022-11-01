@@ -72,7 +72,7 @@ nav:hover{
     align-items: center;
     text-align: center;
 }
-section.section1{
+section{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
     height: 220px;
@@ -138,11 +138,7 @@ section.section6{
     margin-bottom: 12px;
     box-shadow: 6px 6px 24px .2px rgba(0, 0, 0 , 0.309);
 }
-.bodyplaceholder{
-    text-align: center;
-    background-image: -webkit-linear-gradient(rgb(127, 187, 255), #45F0DF);
-    background-size: cover;
-}
+
 section.section7{
     border: 3px solid rgb(112, 110, 110);
     border-radius: 24px;
