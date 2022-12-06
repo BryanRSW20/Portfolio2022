@@ -8,44 +8,256 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet"href="./css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 340px)" href="./css/smallscreen.css">
+    <script src="./js/index.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfólio | Bryan Rassweiler</title>
 </head>
 <body>
-    <header>
-        <br><br><br>
-        <h1 class="title"> PORTFÓLIO </h1>
-        <div class="a"> </div>
-        <h3 class="title"> Bryan Rassweiler</h3>
-        <nav>
-                <a id="active" class="link" href="index.html"> Início </a>
-                <a class="link" href="portfolio.html"> Portfólio </a> 
-            <a class="link" href="sobre.html"> Sobre </a>
-        </nav>
+    <header id="header" class="header">
+        <div class="titles">
+            <h1> Portfólio </h1>
+        </div>
+        <div class="menu">
+            <ul>
+                <li> <a href="index.html"> <i class="fa fa-home"></i> Início </a> </li>
+                <li> <a href="#skills"> <i class="fa fa-code"></i> Habilidades </a> </li>
+                <li> <a href="#portfolio"> <i class="fa fa-clipboard">  </i> Portfólio </a> </li>
+                <li> <a href="#contato"> <i class="fa fa-envelope"></i> Contato </a> </li>
+            </ul>
+        </div>
+        <div class="dark-mode">
+                <li><button id="theme-toggle"> <i class="fa-regular fa-lightbulb"></i></button></li>
+        </div>
     </header>
-    <div id="cardIndex">
-        <strong id="cardIndexTxt">GitHub</strong>
-        <div class="textoCard"> <p> Clique <a class="linkcard" href="https://github.com/BryanRSW20"> aqui </a></p>  </div>
+    <main>
+        <div class="return-to-top"> 
+            <a href="#header"> Retornar ao Topo </a>
+            <a href="#header"><i class="fa fa-arrow-alt-circle-up"></i></a>     
+        </div>
         
-        <br>
-        <br>
-        <br>
-        <div class="texto-lateral">HTTPS://GITHUB.COM/ </div>
-    <div id="img"></div>
-    </div>  
+        <div class="about-wrapper">
+            <div class="about-selector">
+                <button class="linkTela" onclick="abrirTela('Sobre', this)" id="abertoPadrao"> <i class="fa fa-user"></i> <span> Sobre Mim </span>  </button>
+                <button class="linkTela" onclick="abrirTela('Rotina', this)"> <i class="fa fa-calendar-days"></i> <span> Rotina </span> </button>
+                <button class="linkTela" onclick="abrirTela('Curriculo', this)"> <i class="fa fa-clipboard"></i> <span> Currículo </span> </button>
+            </div>
+            <div id="Sobre" class="about">
+                <div class="picture"></div>
+                <div class="about-header">
+                <span> Olá, meu nome é </span>
+                <h1> Bryan Rassweiler </h1>
+                <p> Tenho 18 anos, estou cursando o 3º Ano do Ensino Médio na Escola S de Florianópolis integrado ao curso de desenvolvimento de sistemas, estou estudando e me dedicando cada dia para trabalhar como um desenvolvedor web, tenho conhecimento em HTML5, CSS3, Sass, JavaScript, PostgreSQL e Java, planejo estudar alguns frameworks como o React no futuro. </p>
+                </div>
+            </div>
+            <div id="Rotina" class="about">
+                <div class="about-header">
+                <span> Essa é minha </span>
+                <h1>Rotina Semanal</h1>
+                <div class="aviso">
+                <span> :( Tive que remover a tabela pois ela não cabe na sua tela! </span> <br>
+                <a title="Clique em mim!" href="https://drive.google.com/file/d/1cfphEDJNNoHPy481CzGMAl-TKwl_QFlu/view?usp=sharing" target="_blank"> <i class="fa fa-calendar-days"></i> </a>
+               <br> <span> Se você quer muito ver a tabela, clique no calendário... </span>
+                </div>
+                <table>
+                    <tr>
+                        <th> Horário </th>
+                        <th> Segunda </th>
+                        <th> Terça </th>
+                        <th> Quarta </th>
+                        <th> Quinta </th>
+                        <th> Sexta </th>
+                    </tr>
 
-<div id="cardIndex">
-    <strong id="cardIndexTxt">LinkedIn</strong>
-    <div class="textoCard"> <p> Clique <a class="linkcard" href="https://www.linkedin.com/in/bryan-rassweiler/"> aqui </a></p> </div> 
-    <br>
-    <br>
-    <br>
-    <div class="texto-lateral">HTTPS://LINKEDIN.COM/</div>
-<div id="img1"></div>
-</div>
+                    <tr>
+                        <td> 7:40 </td>
+                        <td> Em aula </td>
+                        <td> Em aula </td>
+                        <td> Em aula </td>
+                        <td> Em aula </td>
+                        <td> Em aula </td>
+                    </tr>
+                    <tr>
+                        <td>13:00</td>
+                        <td> Voltando p/casa </td>
+                        <td> Voltando p/ casa </td>
+                        <td> Voltando p/ casa </td>
+                        <td> Voltando p/ casa </td>
+                        <td> Voltando p/ casa </td>
+                    </tr>
+                    <tr>
+                        <td>15:00</td>
+                        <td>Programando</td>
+                        <td>Programando</td>
+                        <td>Programando</td>
+                        <td>Programando</td>
+                        <td>Programando</td>
+                    </tr>
+                    <tr>
+                        <td>17:00</td>
+                        <td>Estudando</td>
+                        <td>Estudando</td>
+                        <td>Estudando</td>
+                        <td>Estudando</td>
+                        <td>Estudando</td>
+                    </tr>
+                    <tr>
+                        <td>19:00</td>
+                        <td>Lazer</td>
+                        <td>Lazer</td>
+                        <td>Lazer</td>
+                        <td>Lazer</td>
+                        <td>Lazer</td>
+                    </tr>
+
+                    <tr>
+                        <td>21:00</td>
+                        <td> Sono </td>
+                        <td> Sono </td>
+                        <td> Sono </td>
+                        <td> Sono </td>
+                        <td> Sono </td>
+                    </tr>
+                    
+                </table>
+                </div>
+            </div>
+            <div id="Curriculo" class="about">
+                <div class="about-header">
+                <span> Esse é meu </span>
+                <h1>Currículo</h1>
+                <a title="Clique em mim!" href="https://docs.google.com/document/d/1SUyLYBEmbILAePkh5_1zoDtTo_8goq5k0DSPIfOiBTk/edit?usp=sharing" target="_blank"> <i class="fa fa-clipboard"></i> </a> <br>
+                <span> Clique na prancheta! </span>
+            </div>
+            </div>
+        </div>
+
+        <div class="skills-wrapper">
+            <h2 id="skills"> Habilidades </h2>
+            <div class="skills">
+                <div class="skills-card oculta">
+                    <i class="fa-brands fa-html5"></i>
+                    <h2> HTML5 </h2>
+                    <span> Linguagem de marcação </span>
+                </div>
+                <div class="skills-card oculta">
+                    <i class="fa-brands fa-css3"></i>
+                    <h2> CSS3 </h2>
+                    <span> Estilo em cascata </span>
+                </div>
+                <div class="skills-card oculta">
+                    <i class="fa-brands fa-sass"></i>
+                    <h2>Sass</h2>
+                    <span> Extensão </span>
+                </div>
+                <div class="skills-card oculta">
+                    <i class="fa-brands fa-js"></i>
+                    <h2>JavaScript</h2>
+                    <span> Linguagem de programação </span>
+                </div>
+                <div class="skills-card oculta">
+                    <i class="fa-solid fa-database"></i>
+                    <h2> PostgreSQL </h2>
+                    <span> Banco de Dados </span>
+                </div>
+                <div class="skills-card oculta">
+                    <i class="fa-brands fa-java"></i>
+                    <h2> Java </h2>
+                    <span> Linguagem de programação </span>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio-wrapper">
+                <h2 id="portfolio"> Portfólio </h2>
+            <div class="portfolio">
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/13tnUK4_oJl6yfwoMWQaSPI0KXRyE7YfH?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-earth-americas"></i>
+                    <h2> Humanas </h2>
+                </div>
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1IhOkIPRKL1EtoFMrfXSEnts9gywZ4TLq?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-leaf"></i>
+                    <h2> Natureza </h2>
+                </div>
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/15jTxJUyehqyOmbw2kAFIC-XAOpIq_I9Y?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-code"></i>
+                    <h2>Técnico</h2>
+                </div>
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1IwV-GgEJ6_-zoIiTvCqTHkst2-Saa4GG?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-square-root-variable"></i>
+                    <h2>Matemática</h2>
+                </div>
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1IvRxvoL19ccdaqqNNwr1aEggHIHBa6yX?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-language"></i>
+                    <h2> Linguagens </h2>
+                </div>
+                <div class="portfolio-card oculta">
+                    <a target="_blank" href="https://drive.google.com/drive/folders/1Ctz7svf4967hMPutBdGSeiRuwgd_5dak?usp=share_link"> 
+                        <i class="fa fa-folder"></i> </a>
+                            <i class="fa fa-folder"></i>
+                    <h2> Escolha </h2>
+                </div>
+            </div>
+            </div>
+            </div>
+
+        <div class="contact-wrapper">
+        <h2 id="contato"> Entre em contato </h2>
+        <div class="contact">
+        <div style="background-color: #0275b4;" class="card oculta">
+            <i class="fa-brands fa-linkedin"></i>
+            <div class="card-text">
+                <h1> LinkedIn </h1>
+                <div class="card-icons">
+
+
+                    <a target="_blank" href="https://www.linkedin.com/in/bryan-rassweiler/"> <i class="fa fa-user-plus"></i> </a>
+                    <a target="_blank" href="https://www.linkedin.com/"> <i class="fa fa-earth-americas"></i> </a>
+                </div>
+            </div>
+
+        </div>
+        <div style="background-color: #1b1e23;" class="card oculta">
+            <i class="fa-brands fa-github"></i>
+            <div class="card-text">
+                <h1> GitHub </h1>
+                <div class="card-icons">
+
+
+                    <a target="_blank" href="https://www.github.com/BryanRSW20"> <i class="fa fa-user-plus"></i> </a>
+                    <a target="_blank" href="https://www.github.com"> <i class="fa fa-earth-americas"></i> </a>
+                </div>
+            </div>
+
+        </div>
+        <div style="background-color: #0072c9;" class="card oculta">
+            <i class="fa fa-envelope"></i>
+            <div class="card-text">
+                <h1> Email </h1>
+                <div class="card-icons">
+
+
+                    <span> bryanrsw20@outlook.com </i> </span>
+                    
+                </div>
+            </div>
+
+        </div>
+        </div>
+        </div>
+   </main>
 <footer>
-    Criado em 2022. <br>
-    Acompanhe o projeto no GitHub em <a href="https://github.com/BryanRSW20/Portfolio2022"> https://github.com/BryanRSW20/Portfolio2022 </a>
+    Criado por Bryan Rassweiler, 2022 <br>
+    Acompanhe o repositório do projeto no GitHub <a href="https://github.com/BryanRSW20/portfolio2022"> aqui </a>
 </footer>
 </body>
 </html>
