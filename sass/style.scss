@@ -103,7 +103,6 @@ body{
     }
 
     .responsive{
-                display: none;
                 background: transparent;
                 border: none;
                 font-size: 1.2rem;
@@ -121,21 +120,6 @@ body{
     .dark-mode{
         text-align: center;
         flex-grow: 1;
-
-        button{
-            background: transparent;
-            border: none;
-            font-size: 1.2rem;
-            color: var(--cor-texto);
-            cursor: pointer;
-            transition: all .35s ease-in-out;
-
-            &:hover{
-                color: var(--cor-highlight);
-            }
-
-        }
-
 
         li{
             list-style: none;
@@ -591,17 +575,17 @@ footer{
     }
 }
 
-@media(max-width:400px){
-    .dark-mode{
-        display: none;
-    }
+// @media(max-width:400px){
+//     .dark-mode{
+//         display: none;
+//     }
 
-    .header{
-    .responsive{
-        display: block;
-        }
-    }
-}
+//     .header{
+//     .responsive{
+//         display: block;
+//         }
+//     }
+// }
 
 @media(max-width: 500px){
     .card{

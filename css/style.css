@@ -89,7 +89,6 @@ body {
   font-weight: 700;
 }
 .header .responsive {
-  display: none;
   background: transparent;
   border: none;
   font-size: 1.2rem;
@@ -105,17 +104,6 @@ body {
 .header .dark-mode {
   text-align: center;
   flex-grow: 1;
-}
-.header .dark-mode button {
-  background: transparent;
-  border: none;
-  font-size: 1.2rem;
-  color: var(--cor-texto);
-  cursor: pointer;
-  transition: all 0.35s ease-in-out;
-}
-.header .dark-mode button:hover {
-  color: var(--cor-highlight);
 }
 .header .dark-mode li {
   list-style: none;
@@ -489,15 +477,6 @@ footer {
 @media (prefers-reduced-motion) {
   .oculta {
     transition: none;
-  }
-}
-@media (max-width: 400px) {
-  .dark-mode {
-    display: none;
-  }
-
-  .header .responsive {
-    display: block;
   }
 }
 @media (max-width: 500px) {
