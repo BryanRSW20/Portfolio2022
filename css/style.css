@@ -486,5 +486,10 @@ footer {
     transition: none;
   }
 }
+@media (max-width: 500px) {
+  .card {
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
